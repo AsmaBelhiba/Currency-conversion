@@ -1,0 +1,24 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <input type="number" id="amount" placeholder="Enter amount">
+        <div class="currency-selectors">
+            <select id="fromCurrency"></select>
+            <select id="toCurrency"></select>
+        </div>
+        <button onclick="convertCurrency()">Convert</button>
+        <p id="result"></p>
+        <div id="history">
+            <h3>Conversion History</h3>
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
